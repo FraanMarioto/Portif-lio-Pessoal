@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.background{
+    background-image: url(untitled.png);
+    margin: 100px;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 15%;
+}
+
+span{
+    color: #cc2eb296;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px  25px;
+    border: 2px solid #3d0834a1;
+    border-radius: 30px;
+}
+
+nav ul li a{
+    color: #3d0834a1;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #3d0834a1;
+    transition: 0.3s all;
+}
+
+
+.Main{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.Main span{
+    color: #cc2eb296;
+}
+
+h1{
+    color: #3d0834a1;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    color: #cc2eb296;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #cc2eb296;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.background-color-Sobre{
+    background-color: white;
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.background-color-Sobre img{
+    width: 430px;
+    height: auto;
+}
+
+.Text-sobre{
+    width: 550px;
+  }
+
+.main-sobre{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1200px;
+   margin: 0 auto;
+}
+
+.Text-sobre h2{
+    color: #3d0834a1;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.Text-sobre h5{
+    color: #3d0834a1;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.Text-sobre p{
+    color: #3d0834a1;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.Container-formacao{
+    background-color: white;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #3d0834a1;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background: white;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    
+}
+
+.Card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #cc2eb296;
+}
+
+h5{
+    color: #3d0834a1;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Paragrafo-button{
+    color: #3d0834a1;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button button{
+    margin-top: 25px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    font-size: 35px;
+    color: #3d0834a1;
+}
+
+footer p{
+    color: #fff;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais{
+    display: flex;
+    
+}
+
+.Redes-sociais a{
+    background-color: #cc2eb296;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #3d0834a1;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: #cc2eb296;
+    bottom: 35px;
+    font-size: 14px ;
+}
